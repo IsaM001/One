@@ -1,0 +1,132 @@
+body {
+    background-color: azure;
+    margin: 0; 
+}
+
+.container-top {
+    background-color: azure;
+    padding-top: 100px;
+    position: relative;
+    display: block;
+    text-align: center;
+    color: black;
+    margin: 0; 
+}
+
+em {
+    font-weight: bold;
+}
+
+.second-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: -10px;
+    margin: 0; 
+}
+
+.Profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.Heading {
+    text-align: center;
+}
+
+.img-about {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+
+}
+
+.img-about img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.img-about {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-about img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.open {
+    text-align: center;
+}
+
+hr{
+    border: 2px solid black;
+}
+
+.Survey {
+
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    padding: 0;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project div {
+    max-width: 100%;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.Forms{
+    text-align: center;
+    color:coral
+}
